@@ -1,0 +1,24 @@
+@charset "UTF-8"; (use isso no inicio do seu style.css pra garantir que o codigo vai ser compativel com acentuações)
+
+border-sizing: border-box; (serve pra fazer a borda fazer parte da caixa e não afetar o espaçamento com o objetos proximos)
+----------------------------------------------------------------------------------------------------------------------------
+-para centralizar um item sem usar flex box use
+
+position: relative; (obejto pai)
+
+position: absolute; (objeto filho)
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+transform: translate(-2px, -2px); (voce tambem pode usar um transform como esse dentro de um :hover para fazer o botão se 
+                                   movimentar quando voce passar o mouse por cima)
+
+transition: transform 1s; (ja essa tag como o proprio nome ja diz é uma transição para o seu transform que faz com que o 
+                           movimento demore um tempo para ser feito em vez se der feito abruptamente.)
+
+-voce tambem pode botar outras tags dentro do transition. exemplo;
+transition: transform 0.2s , border 0.1s ;
+----------------------------------------------------------------------------------------------------------------------------
+de um name a um iframe coloque ele dentro do target do link pra indicar q o link deve abrir dentro do iframe
+
