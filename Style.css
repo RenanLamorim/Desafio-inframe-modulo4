@@ -32,3 +32,9 @@ main{
     background-size: cover;
 
 }
+
+#tela{
+    position: relative;
+    top: 82px;
+    left: 24px;
+}
