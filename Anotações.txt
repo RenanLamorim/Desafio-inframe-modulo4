@@ -22,3 +22,10 @@ transition: transform 0.2s , border 0.1s ;
 ----------------------------------------------------------------------------------------------------------------------------
 de um name a um iframe coloque ele dentro do target do link pra indicar q o link deve abrir dentro do iframe
 
+se voce quiser tirar a barra de rolagem de uma pagina use o seguinte comando dentro do css:
+
+::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+
